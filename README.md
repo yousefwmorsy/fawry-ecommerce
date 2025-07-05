@@ -6,29 +6,28 @@ This project is a simple e-commerce system implemented in Java, following object
 ## Project Structure
 ```
 fawry-ecommerce/
-pom.xml
-src/
-├── main/
-│   └── java/
-│       └── com/fawry/ecommerce/
-│           ├── Main.java
-│           ├── factories/ProductFactory.java
-│           ├── models/
-│           │   ├── Customer.java
-│           │   ├── Cart/Cart.java
-│           │   ├── Cart/CartItem.java
-│           │   ├── Product/Product.java
-│           │   ├── Product/Expirable.java
-│           │   ├── Product/Shippable.java
-│           │   └── Product/Types/
-│           │       ├── BasicProduct.java
-│           │       ├── ExpirableProduct.java
-│           │       ├── ShippableProduct.java
-│           │       └── ShippableExpirableProduct.java
-│           └── services/
-│               ├── CheckoutService.java
-│               └── ShippingService.java
-│   
+├── pom.xml
+├── src/
+│   └── main/
+│       └── java/
+│           └── com/fawry/ecommerce/
+│               ├── Main.java
+│               ├── factories/ProductFactory.java
+│               ├── models/
+│               │   ├── Customer.java
+│               │   ├── Cart/Cart.java
+│               │   ├── Cart/CartItem.java
+│               │   ├── Product/Product.java
+│               │   ├── Product/Expirable.java
+│               │   ├── Product/Shippable.java
+│               │   └── Product/Types/
+│               │       ├── BasicProduct.java
+│               │       ├── ExpirableProduct.java
+│               │       ├── ShippableProduct.java
+│               │       └── ShippableExpirableProduct.java
+│               └── services/
+│                   ├── CheckoutService.java
+│                   └── ShippingService.java
 └── target/
 ```
 
