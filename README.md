@@ -84,7 +84,7 @@ fawry-ecommerce/
 The `Main.java` file contains code examples that demonstrate the system's functionality:
 
 
-## Code Example 1
+## Code Example #1
 ```java
 Customer customer = new Customer("Yousef", 440);
 Customer customer2 = new Customer("Joe", 4500);
@@ -113,7 +113,7 @@ cart2.add(cheese, 2); //available cheese, 2 - 2 = 0 (Shippable & Expirable)
 checkout(customer2, cart2); // checkout successful, cart is reset
 ```
 
-## Sample Output 1
+## Sample Output #1
 ```
 Error adding item to cart: Cannot add expired product (Biscuits) to cart
 ** Shipment notice **
@@ -148,7 +148,7 @@ Amount          2840.0
 Checkout successful for Joe. Remaining balance: 1660.0
 ```
 
-## Code Example 2 (Example 1 Continued)
+## Code Example #2 (Example #1 Continued)
 ```java
 Product milk = ProductFactory.createProduct("Milk", 40, 10, LocalDate.of(2025, 7, 20), 500);
 Product iceCream = ProductFactory.createProduct("Ice Cream", 250, 10, LocalDate.of(2025, 12, 31));
@@ -163,7 +163,7 @@ cart2.add(giftCard, 2); //not added due to insufficient stock (Basic Product, no
 checkout(customer2, cart2); //checkout unsuccessful due to insufficient balance
 ```
 
-## Sample Output 2
+## Sample Output #2
 ```
 Error adding item to cart: Insufficient product (Gift Card) quantity in stock, only 3 available
 Error adding item to cart: Insufficient product (Gift Card) quantity in stock, only 1 available
@@ -182,14 +182,14 @@ Amount          1950.0
 Checkout failed for Joe: Insufficient balance for checkout, only 1660.0 available.
 ```
 
-## Code Example 3 
+## Code Example #3 
 ```java 
 Customer customer3 = new Customer("Ahmed", 100);
 Cart cart3 = customer3.getCart();
 
 checkout(customer3, cart3); // checkout unsuccessful due to empty cart
 ```
-## Sample Output 3
+## Sample Output #3
 ```
 Checkout failed for Ahmed: Cart is empty
 ```
