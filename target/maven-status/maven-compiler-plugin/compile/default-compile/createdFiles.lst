@@ -1,0 +1,14 @@
+com\fawry\ecommerce\models\Product\Types\ExpirableProduct.class
+com\fawry\ecommerce\factories\ProductFactory.class
+com\fawry\ecommerce\models\Product\Types\ShippableExpirableProduct.class
+com\fawry\ecommerce\Main.class
+com\fawry\ecommerce\models\Product\Product.class
+com\fawry\ecommerce\models\Product\Types\BasicProduct.class
+com\fawry\ecommerce\models\Product\Expirable.class
+com\fawry\ecommerce\models\Customer.class
+com\fawry\ecommerce\models\Cart\Cart.class
+com\fawry\ecommerce\models\Product\Types\ShippableProduct.class
+com\fawry\ecommerce\services\ShippingService.class
+com\fawry\ecommerce\models\Cart\CartItem.class
+com\fawry\ecommerce\services\CheckoutService.class
+com\fawry\ecommerce\models\Product\Shippable.class
