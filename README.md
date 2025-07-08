@@ -194,6 +194,10 @@ checkout(customer3, cart3); // checkout unsuccessful due to empty cart
 Checkout failed for Ahmed: Cart is empty
 ```
 
+## Screenshot
+![image](https://github.com/user-attachments/assets/e7415110-11d6-4326-9b59-59de581eb8a2)
+
+
 ## Notes
 - Expired products and products with insufficient stock are not added to the cart.
 - The receipt and shipping details are printed to the console.
